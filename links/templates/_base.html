@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="bg-body-tertiary">
+      <div class="container pt-3 pb-3">
+        <div class="d-flex justify-content-between">
+          <a class="navbar-brand" href="#"><h2>Navbar</h2></a>
+          <button type="button" class="btn btn-primary rounded-3 ps-3 pe-3 pt-2 pb-2"><span>Add Link</span><i class="bi bi-plus"></i></button>
+        </div>
+      </div>
+    </nav>
+    <div>
+      {% block content %}
+
+      {% endblock %}
+    </div>
+  </body>
+</html>
